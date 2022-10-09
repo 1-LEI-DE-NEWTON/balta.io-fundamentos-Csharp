@@ -10,9 +10,9 @@ namespace EditorHtml
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.ForegroundColor = ConsoleColor.Black;
             
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             DrawScreen();
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
             WriteOptions();
 
             var option = short.Parse(Console.ReadLine());
@@ -24,7 +24,7 @@ namespace EditorHtml
             Console.Write("+");
             for (int i = 0; i <= 30; i++)
             {
-                Thread.Sleep(10);
+                //Thread.Sleep(10);
                 Console.Write("-");
             }
             Console.Write("+\n");
@@ -34,7 +34,7 @@ namespace EditorHtml
                 Console.Write("|");
                 for (int i = 0; i <= 30; i++)
                 {
-                    Thread.Sleep(10);
+                    //Thread.Sleep(10);
                     Console.Write(" ");
                 }
                 Console.Write("|\n");
@@ -43,7 +43,7 @@ namespace EditorHtml
             Console.Write("+");
             for (int i = 0; i <= 30; i++)
             {
-                Thread.Sleep(10);
+                //Thread.Sleep(10);
                 Console.Write("-");
             }
             Console.Write("+\n");

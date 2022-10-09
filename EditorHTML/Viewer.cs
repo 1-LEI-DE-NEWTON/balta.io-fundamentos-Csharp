@@ -7,7 +7,7 @@ public class Viewer
     public static void Show(string text)
     {
         Console.Clear();
-        Console.BackgroundColor = ConsoleColor.White;
+        Console.ForegroundColor = ConsoleColor.White;
         Console.BackgroundColor = ConsoleColor.Black;
         Console.Clear();
         Console.WriteLine("MODO DE VISUALIZAÇÃO");
@@ -38,18 +38,16 @@ public class Viewer
                         )
                     )
                 );
-                Console.Write("");
+                Console.Write(" ");
+                Console.ForegroundColor = ConsoleColor.White;
                 
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.Write(words[i]);
                 Console.Write(" ");
             }
         }
-
-        Console.WriteLine(strong);
-        
     }
 }
